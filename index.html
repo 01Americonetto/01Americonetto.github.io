@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Américo Souza | AI Engineer</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            background-color: #0d1117;
+            color: #c9d1d9;
+            margin: 0;
+            padding: 20px;
+            display: flex;
+            justify-content: center;
+        }
+        .container {
+            max-width: 700px;
+            width: 100%;
+        }
+        header {
+            text-align: center;
+            padding: 40px 0;
+            border-bottom: 1px solid #30363d;
+        }
+        h1 { margin: 0 0 10px 0; color: #f0f6fc; font-size: 28px; }
+        p.subtitle { color: #8b949e; font-size: 16px; margin: 0 0 20px 0; }
+        .links a {
+            display: inline-block;
+            margin: 5px 10px;
+            color: #58a6ff;
+            text-decoration: none;
+            font-weight: 600;
+        }
+        .links a:hover { text-decoration: underline; }
+        section { padding: 30px 0; border-bottom: 1px solid #30363d; }
+        h2 { color: #f0f6fc; font-size: 20px; border-left: 3px solid #238636; padding-left: 10px; }
+        .project-card {
+            background-color: #161b22;
+            border: 1px solid #30363d;
+            border-radius: 6px;
+            padding: 20px;
+            margin-bottom: 20px;
+        }
+        .project-card h3 { margin-top: 0; color: #58a6ff; }
+        .project-card p { font-size: 14px; color: #8b949e; }
+        .tag {
+            display: inline-block;
+            background-color: #21262d;
+            color: #f0f6fc;
+            padding: 3px 8px;
+            border-radius: 12px;
+            font-size: 12px;
+            margin-right: 5px;
+            border: 1px solid #30363d;
+        }
+        footer { text-align: center; padding: 20px; color: #8b949e; font-size: 12px; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Américo Souza</h1>
+            <p class="subtitle">AI Engineer & Applied Machine Learning Specialist</p>
+            <div class="links">
+                <a href="https://github.com/01Americonetto" target="_blank">GitHub</a>
+                <a href="https://huggingface.co/Americonetto" target="_blank">Hugging Face</a>
+                <a href="https://www.linkedin.com/in/américo-souza-4a3308303" target="_blank">LinkedIn</a>
+                <a href="mailto:souzaneto282@gmail.com">Contato</a>
+            </div>
+        </header>
+
+        <section>
+            <h2>Sobre Mim</h2>
+            <p>Estudante de Ciência da Computação com sólida experiência prática em operações logísticas e gestão de hubs de entrega (Zé Delivery). Especializado em Engenharia de IA Aplicada, desenvolvendo sistemas de NLP, arquiteturas RAG com busca vetorial (FAISS) e integração de modelos open-source (PyTorch e Hugging Face) para automação e eficiência operacional.</p>
+        </section>
+
+        <section>
+            <h2>Projetos em Destaque</h2>
+            
+            <div class="project-card">
+                <h3>Delivery Operations RAG</h3>
+                <p>Sistema de consulta semântica automatizada para regras corporativas e manuais logísticos utilizando embeddings densos, indexação em memória via FAISS e LLMs open-source (Qwen2.5) com restrição de contexto.</p>
+                <div>
+                    <span class="tag">Python</span>
+                    <span class="tag">PyTorch</span>
+                    <span class="tag">FAISS</span>
+                    <span class="tag">Hugging Face</span>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <h3>Delivery Intent Classifier</h3>
+                <p>Classificador de intenções corporativas baseado em modelos multilíngues (mDeBERTa) para automação de processos de triagem e roteamento inteligente de chamados de suporte em operações de delivery.</p>
+                <div>
+                    <span class="tag">mDeBERTa</span>
+                    <span class="tag">Zero-Shot</span>
+                    <span class="tag">PyTorch</span>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <h3>Delivery Sentiment Analyzer</h3>
+                <p>Pipeline de Deep Learning para análise de polaridade em avaliações de clientes (Positivo/Negativo) com extração de scores de confiança e métricas automatizadas de satisfação.</p>
+                <div>
+                    <span class="tag">Transformers</span>
+                    <span class="tag">NLP</span>
+                    <span class="tag">PyTorch</span>
+                </div>
+            </div>
+        </section>
+
+        <footer>
+            <p>&copy; 2026 Américo Souza. Construído com foco em Engenharia de IA.</p>
+        </footer>
+    </div>
+</body>
+</html>
