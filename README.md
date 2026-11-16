@@ -28,4 +28,4 @@ Repositório oficial do portfólio pessoal e sistemas de Inteligência Artificia
 * **Site Online:** [https://01Americonetto.github.io](https://01Americonetto.github.io)
 * **GitHub:** [github.com/01Americonetto](https://github.com/01Americonetto)
 * **Hugging Face:** [huggingface.co/Americonetto](https://huggingface.co/Americonetto)
-* **LinkedIn:** [Perfil Profissional](https://www.linkedin.com/in/américo-souza-4a3308303)
+* **LinkedIn:** [Perfil Profissional](https://www.linkedin.com/in/américo-souza-4a3008303?utm_source=share_via&utm_content=profile&utm_medium=member_android)
